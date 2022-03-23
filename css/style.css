@@ -4,8 +4,12 @@
 /* ALL PAGES */
 
 body {
-    /*Backgroud colour format*/
-	background-color:rgb(63, 69, 70) 
+    /*Background colour format*/
+	background-color:rgb(63, 69, 70);
+    background-image: url(../img/onur-binay-_yC2htzMYnI-unsplash.jpg);
+    /* height: 100vh; */
+    background-size: cover;
+    background-position: center;
 }
 
 #container {
@@ -86,6 +90,24 @@ a {
     font-weight: bold;
 }
 
+/*Home page header subtitle*/
+#paragraph {/*"profile website" header*/
+
+    /*Title background format*/
+    padding: 15px;/*Size of box surrounding text*/
+    margin-top: 1em;/*distance set for top of box*/
+    border-radius: 1rem;/*Curves for box*/
+    /* border: 5px solid #222831;Border thicknes / colour */
+    /* background-color: #393E46;Box color */
+
+    /*Text format*/
+    color: #0ab9c2;/*Title font color*/
+    /* text-align: center;keeps text centered */
+    font-size: large;/*text font size*/
+    font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;/*Text font style*/
+    font-weight: bold;
+}
+
 .button {/*formatting for main menu buttons*/
     padding: 1rem;
     border: 0.3rem solid rgb(0, 0, 0);
@@ -100,47 +122,6 @@ a {
     background-color: rgb(57, 62, 70);/*Box color*/}
 
 /*-------------------------------------------------------------------------------------*/
-
-/* CONTACT INFO */
-/* CONTACT INFO */
-/* CONTACT INFO */
-
-#head2 {/*contact info page header*/
-
-    /*Title background format*/
-    padding: 1em;/*Size of box surrounding text*/
-    margin-bottom: 30px;/*Space between "contact info" box and next section*/
-    margin-top: 1em;/*distance set for top of web page and box*/
-    border-radius: 1rem;/*Curves for box*/
-    border: 5px solid black;/*Border thicknes / colour */
-    background-color:rgb(232,165,175);/*Box color*/
-    
-    /*Text format*/
-    color: black;/*Title font color*/
-    text-align: center;/*keeps text centered*/
-    font-size: large;/*text font size*/
-    font-family: Arial, Helvetica, sans-serif;/*Text font style*/
-
-    
-}
-
-#head3 {/*Direct message header*/
-    
-    /*Title background format*/
-    padding: 25px;/*Size of box surrounding text*/
-    margin-bottom: none;/*Space between contact "direct message" box and next section*/
-    margin-top: 40px;/*distance set for top of direct message box*/
-    border-radius: 1rem;/*Curves for box*/
-    border: 5px solid black;/*Border thicknes / colour */
-    background-color: rgb(221, 218, 19);/*Box color*/
-    
-    /*Text format*/
-    color: black;/*Title font color*/
-    text-align: center;/*keeps text centered*/
-    font-size: 35px;/*text font size*/
-    font-family: Georgia, 'Times New Roman', Times, serif;/*Text font style*/
-    
-}
 
 .phone {/*Format for phone box on contact page*/
 
@@ -402,7 +383,7 @@ html.w-mod-touch *{background-attachment:scroll!important}
 .w-clearfix:after,.w-clearfix:before{content:" ";display:table;grid-column-start:1;grid-row-start:1;grid-column-end:2;grid-row-end:2}
 .w-clearfix:after{clear:both}
 .w-hidden{display:none}
-.w-button{display:inline-block;padding:9px 15px;background-color:#3898ec;color:#fff;border:0;line-height:inherit;text-decoration:none;cursor:pointer;border-radius:0}
+.w-button{display:inline-block;padding:9px 15px;background-color:#00ADB5;color:#fff;border:0;line-height:inherit;text-decoration:none;cursor:pointer;border-radius:0}
 input.w-button{-webkit-appearance:button}
 html[data-w-dynpage] [data-w-cloak]{color:transparent!important}
 .w-webflow-badge,.w-webflow-badge *{position:static;left:auto;top:auto;right:auto;bottom:auto;z-index:auto;display:block;visibility:visible;overflow:visible;overflow-x:visible;overflow-y:visible;box-sizing:border-box;width:auto;height:auto;max-height:none;max-width:none;min-height:0;min-width:0;margin:0;padding:0;float:none;clear:none;border:0 transparent;border-radius:0;background:0 0;box-shadow:none;opacity:1;transform:none;transition:none;direction:ltr;font-family:inherit;font-weight:inherit;color:inherit;font-size:inherit;line-height:inherit;font-style:inherit;font-variant:inherit;text-align:inherit;letter-spacing:inherit;text-decoration:inherit;text-indent:0;text-transform:inherit;list-style-type:disc;text-shadow:none;font-smoothing:auto;vertical-align:baseline;cursor:inherit;white-space:inherit;word-break:normal;word-spacing:normal;word-wrap:normal}
@@ -806,9 +787,9 @@ textarea.w-input,textarea.w-select{height:auto}
     }.resources-button:hover{background-color:#cc0029
     }.resources-button-text{margin-top:3px;padding-right:10px;color:#fff;font-weight:700;letter-spacing:.1em;text-decoration:none
     }.text-block-2{padding-right:5px;font-weight:300
-    }.div-block-13{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row
-    }.section-10{background-color:#f0f0f0
-    }.text-field{margin-bottom:0;border:1px #000
+    }.div-block-13{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row}
+    /* .section-10{background-color:#f0f0f0} */
+    .text-field{margin-bottom:0;border:1px #000
     }.consult-grid{grid-column-gap:32px;grid-row-gap:32px;-ms-grid-rows:auto;grid-template-rows:auto
     }.resources-hero-container{padding:100px 60px
     }.rsources-h1{color:#fff;font-size:48px
