@@ -267,11 +267,12 @@ audio:not([controls]){
     height:0
 }
 [hidden],template{display:none
-}a{
+}
+/*a{
     background-color:transparent;
     text-decoration:underline
-}
-a:active,a:hover{outline:0}
+}*/
+a:active,a:hover{outline:0} 
 abbr[title]{border-bottom:1px dotted}
 b,optgroup,strong{font-weight:700}
 dfn{font-style:italic} 
