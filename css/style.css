@@ -5,7 +5,7 @@
 
 body {
     /*Backgroud colour format*/
-	background-color:lightgray 
+	background-color:rgb(63, 69, 70) 
 }
 
 #container {
@@ -64,7 +64,7 @@ a {
     color: #00ADB5;/*Title font color*/
     text-align: center;/*keeps text centered*/
     font-size: xx-large;/*text font size*/
-    font-family: Georgia, 'Times New Roman', Times, serif;/*Text font style*/
+    font-family: Roboto, sans-serif, Georgia, 'Times New Roman', Times, serif;/*Text font style*/
     
 }
 
@@ -82,7 +82,7 @@ a {
     color: #00ADB5;/*Title font color*/
     text-align: center;/*keeps text centered*/
     font-size: x-large;/*text font size*/
-    font-family: Arial, Helvetica, sans-serif;/*Text font style*/
+    font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;/*Text font style*/
     font-weight: bold;
 }
 
@@ -92,11 +92,12 @@ a {
     font-size: 1em;
     border-radius: 1rem;
     margin: 1em;
+    border: 2px solid #222831;/*Border thicknes / colour */
+    background-color: #393E46;/*Box color*/}
 }
 
 .button:hover {
-  background-color: #00ADB5;/*Button colour when mouse hovers over*/
-}
+    background-color: rgb(57, 62, 70);/*Box color*/}
 
 /*-------------------------------------------------------------------------------------*/
 
@@ -238,6 +239,94 @@ a {
      font-family: Georgia, 'Times New Roman', Times, serif;
      font-weight: bolder;
 }
+/*-------------------------------------------------------------------------------------*/
+
+/* RESUME */
+/* RESUME */
+/* RESUME */
+
+#head4 {/*resume header*/
+
+    /*Title background format*/
+    padding: 25px;/*Size of box surrounding text*/
+    margin-bottom: 75px;/*Space between "resume" title box and next section*/
+    margin-top: 30px;/*distance set for top of web page and box*/
+    border-radius: 1rem;/*Curves for box*/
+    border: 5px solid black;/*Border thicknes / colour */
+    background-color: rgb(32, 161, 101);/*Box color*/
+
+    /*Text format*/
+    color: black;/*Title font color*/
+    text-align: center;/*keeps text centered*/
+    font-size: 35px;/*text font size*/
+    font-family: Georgia, 'Times New Roman', Times, serif;/*Text font style*/
+    
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+/* ABOUT ME */
+/* ABOUT ME */
+/* ABOUT ME */
+
+#head5 {/*about me header*/
+
+    /*Title background format*/
+    padding: 25px;/*Size of box surrounding text*/
+    margin-bottom: 25px;/*Space between "about me" box and next section*/
+    margin-top: 30px;/*distance set for top of web page and box*/
+    border-radius: 1rem;/*Curves for box*/
+    border: 5px solid black;/*Border thicknes / colour */
+    background-color: rgb(90, 9, 240); /*Box color*/
+    
+    /*Text format*/
+    color: black;/*Title font color*/
+    text-align: center;/*keeps text centered*/
+    font-size: 35px;/*text font size*/
+    font-family: Georgia, 'Times New Roman', Times, serif;/*Text font style*/
+    
+}
+
+.ent {/*for each entry on about me page*/
+    margin-bottom: 100px;/*space between box below*/
+    margin-top: 15px;/*distance set for top */
+    padding: 1rem 1rem;/*Size around form*/
+    border: 0.3rem solid rgb(0, 0, 0);/*Border thicknes / colour */
+    border-radius: 1rem;/*curves on corner of button*/
+    background: rgb(67, 170, 211);/*box color*/
+
+    /*Text format*/
+    color: black;/*Title font color*/
+    text-align: center;/*keeps text centered*/
+    font-size: 30px;/*text font size*/
+    font-family: Georgia, 'Times New Roman', Times, serif;/*Text font style*/
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+/* PROJECTS */
+/* PROJECTS */
+/* PROJECTS */
+
+#head6 {/*projects header*/
+
+    /*Title background format*/
+    padding: 25px;/*Size of box surrounding text*/
+    margin-bottom: 30px;/*Space between "Projects" box and next section*/
+    margin-top: 30px;/*distance set for top of web page and box*/
+    border-radius: 1rem;/*Curves for box*/
+    border: 5px solid black;/*Border thicknes / colour */
+    background-color: rgb(240, 121, 9);/*Box color*/
+
+    /*Text format*/
+    color: black;/*Title font color*/
+    text-align: center;/*keeps text centered*/
+    font-size: 35px;/*text font size*/
+    font-family: Georgia, 'Times New Roman', Times, serif;/*Text font style*/
+   
+}
+
+/*-------------------------------------------------------------------------------------*/
 
 html{font-family:sans-serif;
     -ms-text-size-adjust:100%;
@@ -861,92 +950,3 @@ textarea.w-input,textarea.w-select{height:auto}
     }#w-node-_65cdf48f-dbcd-1f6a-fded-b01ff9cd5b2a-344912d2{-ms-grid-row:span 1;grid-row-start:span 1;-ms-grid-row-span:1;grid-row-end:span 1;-ms-grid-column:span 2;grid-column-start:span 2;-ms-grid-column-span:2;grid-column-end:span 2
     }@media screen and (max-width:767px){#w-node-b2ee6054-a223-bd1b-4f04-4f336623d75a-def14859{-ms-grid-column-align:center;justify-self:center
 }}
-
-/*-------------------------------------------------------------------------------------*/
-
-/* RESUME */
-/* RESUME */
-/* RESUME */
-
-#head4 {/*resume header*/
-
-    /*Title background format*/
-    padding: 25px;/*Size of box surrounding text*/
-    margin-bottom: 75px;/*Space between "resume" title box and next section*/
-    margin-top: 30px;/*distance set for top of web page and box*/
-    border-radius: 1rem;/*Curves for box*/
-    border: 5px solid black;/*Border thicknes / colour */
-    background-color: rgb(32, 161, 101);/*Box color*/
-
-    /*Text format*/
-    color: black;/*Title font color*/
-    text-align: center;/*keeps text centered*/
-    font-size: 35px;/*text font size*/
-    font-family: Georgia, 'Times New Roman', Times, serif;/*Text font style*/
-    
-}
-
-/*-------------------------------------------------------------------------------------*/
-
-/* ABOUT ME */
-/* ABOUT ME */
-/* ABOUT ME */
-
-#head5 {/*about me header*/
-
-    /*Title background format*/
-    padding: 25px;/*Size of box surrounding text*/
-    margin-bottom: 25px;/*Space between "about me" box and next section*/
-    margin-top: 30px;/*distance set for top of web page and box*/
-    border-radius: 1rem;/*Curves for box*/
-    border: 5px solid black;/*Border thicknes / colour */
-    background-color: rgb(90, 9, 240); /*Box color*/
-    
-    /*Text format*/
-    color: black;/*Title font color*/
-    text-align: center;/*keeps text centered*/
-    font-size: 35px;/*text font size*/
-    font-family: Georgia, 'Times New Roman', Times, serif;/*Text font style*/
-    
-}
-
-.ent {/*for each entry on about me page*/
-    margin-bottom: 100px;/*space between box below*/
-    margin-top: 15px;/*distance set for top */
-    padding: 1rem 1rem;/*Size around form*/
-    border: 0.3rem solid rgb(0, 0, 0);/*Border thicknes / colour */
-    border-radius: 1rem;/*curves on corner of button*/
-    background: rgb(67, 170, 211);/*box color*/
-
-    /*Text format*/
-    color: black;/*Title font color*/
-    text-align: center;/*keeps text centered*/
-    font-size: 30px;/*text font size*/
-    font-family: Georgia, 'Times New Roman', Times, serif;/*Text font style*/
-}
-
-/*-------------------------------------------------------------------------------------*/
-
-/* PROJECTS */
-/* PROJECTS */
-/* PROJECTS */
-
-#head6 {/*projects header*/
-
-    /*Title background format*/
-    padding: 25px;/*Size of box surrounding text*/
-    margin-bottom: 30px;/*Space between "Projects" box and next section*/
-    margin-top: 30px;/*distance set for top of web page and box*/
-    border-radius: 1rem;/*Curves for box*/
-    border: 5px solid black;/*Border thicknes / colour */
-    background-color: rgb(240, 121, 9);/*Box color*/
-
-    /*Text format*/
-    color: black;/*Title font color*/
-    text-align: center;/*keeps text centered*/
-    font-size: 35px;/*text font size*/
-    font-family: Georgia, 'Times New Roman', Times, serif;/*Text font style*/
-   
-}
-
-/*-------------------------------------------------------------------------------------*/
