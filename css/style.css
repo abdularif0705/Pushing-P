@@ -28,7 +28,7 @@ body {
 
 a {
 	text-decoration: none;/*no underline*/
-	color: #00adb5;
+	color: #0cc6cf;
 }
 
 .middleIcons {
@@ -65,7 +65,7 @@ a {
     background-color: #393E46;/*Box color*/
 
     /*Text format*/
-    color: #00ADB5;/*Title font color*/
+    color: #0cc6cf;/*Title font color*/
     text-align: center;/*keeps text centered*/
     font-size: xx-large;/*text font size*/
     font-family: Roboto, sans-serif, Georgia, 'Times New Roman', Times, serif;/*Text font style*/
@@ -83,7 +83,7 @@ a {
     background-color: #393E46;/*Box color*/
 
     /*Text format*/
-    color: #00ADB5;/*Title font color*/
+    color: #0cc6cf;/*Title font color*/
     text-align: center;/*keeps text centered*/
     font-size: x-large;/*text font size*/
     font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;/*Text font style*/
@@ -101,7 +101,7 @@ a {
     /* background-color: #393E46;Box color */
 
     /*Text format*/
-    color: #0ab9c2;/*Title font color*/
+    color: #0cc6cf;/*Title font color*/
     /* text-align: center;keeps text centered */
     font-size: large;/*text font size*/
     font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;/*Text font style*/
@@ -115,112 +115,12 @@ a {
     border-radius: 1rem;
     margin: 1em;
     border: 2px solid #222831;/*Border thicknes / colour */
-    background-color: #393E46;/*Box color*/}
+    background-color: #393E46;/*Box color*/
 }
 
 .button:hover {
-    background-color: rgb(57, 62, 70);/*Box color*/}
-
-/*-------------------------------------------------------------------------------------*/
-
-.phone {/*Format for phone box on contact page*/
-
-    /*Phone box format*/
-    width: 350px;/*Width of box*/
-    margin: auto;/*Center the box*/
-    padding: 0.5rem 1.25rem;/*Size of button*/
-    border-radius: 1rem;/*curves on corner of box*/
-    border: none;/*Border thicknes / colour */
-    background: rgb(67, 170, 211);/*Box color*/
-    
-    /*Text format*/
-    text-align: center;/*Box text alignment*/
-    color: black;/*Font color*/  
-    font-size: 15px;/*size of text*/
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-}  
-
-.email {/*Format for email button on contact page*/
-
-    /*Email button format*/
-    width: 400px;/*Width of box*/
-    margin-bottom: 20px;/*Space between email button and box below*/
-    margin-top: 20px;/*distance set for top of button*/
-    padding: 2.5rem 1rem;/*Size of button*/
-    border-radius: 1rem;/*curves on corner of button*/
-
-    /*Text format*/
-    color: black;/*Font color*/  
-    font-size: 25px;/*size of button text*/
-    /*font-style:oblique;*/
-    /*font-weight: bold;*/
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
-
+    background-color: rgb(57, 62, 70);/*Box color*/
 }
-
-.dm {
-    /*DM background format*/
-    margin: auto;
-    margin-bottom: 20px;/*Space between email button and box below*/
-    margin-top: 15px;/*distance set for top of button*/
-    padding: 2rem 1rem;/*Size around form*/
-    border: 0.3rem solid rgb(0, 0, 0);/*Border thicknes / colour */
-    border-radius: 1rem;/*curves on corner of button*/
-    background: rgb(153, 190, 187);/*box under direct message*/
-
-    /*Text format*/
-    color: black;/*Font color*/  
-    font-size: 1.75rem;
-}
-
-.space1 {
-    /*your email section*/
-    margin-bottom: 20px;/*Space between email button and box below*/
-    margin-top: 15px;/*distance set for top */
-    padding: 2rem 2rem;/*Size around form*/
-    border: 0.3rem solid rgb(0, 0, 0);/*Border thicknes / colour */
-    border-radius: 1rem;/*curves on corner of button*/
-    background: rgb(142, 143, 142);/*box under direct message*/
-
-    /*Text format*/
-    color: black;/*Font color*/  
-    font-size: 2rem;
-    font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.space2 {/*text box in contact page section*/
-    margin-bottom: 20px;/*space between box below*/
-    margin-top: 15px;/*distance set for top */
-    padding: 2rem 2rem;/*Size around form*/
-    border: 0.3rem solid rgb(0, 0, 0);/*Border thicknes / colour */
-    border-radius: 1rem;/*curves on corner of button*/
-    background: white;/*box color*/
-
-    /*Text format*/
-    color: black;/*Font color*/  
-    font-size: 2rem;
-    font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-
-.send {
-    /*send button on contact page format*/
-     color: black;
-     font-size: 25px;
-     width: 150px;
-     height: 75px;
-     border: 0.2rem solid rgb(0, 0, 0);
-     border-radius: 1rem;
-     margin: 10px;
-     padding: 0;
-     background-color:rgb(240, 236, 236);
-     font-family: Georgia, 'Times New Roman', Times, serif;
-     font-weight: bolder;
-}
-/*-------------------------------------------------------------------------------------*/
 
 /* RESUME */
 /* RESUME */
@@ -383,7 +283,7 @@ html.w-mod-touch *{background-attachment:scroll!important}
 .w-clearfix:after,.w-clearfix:before{content:" ";display:table;grid-column-start:1;grid-row-start:1;grid-column-end:2;grid-row-end:2}
 .w-clearfix:after{clear:both}
 .w-hidden{display:none}
-.w-button{display:inline-block;padding:9px 15px;background-color:#00ADB5;color:#fff;border:0;line-height:inherit;text-decoration:none;cursor:pointer;border-radius:0}
+.w-button{display:inline-block;padding:9px 15px;background-color:#0cc6cf;color:#fff;border:0;line-height:inherit;text-decoration:none;cursor:pointer;border-radius:0}
 input.w-button{-webkit-appearance:button}
 html[data-w-dynpage] [data-w-cloak]{color:transparent!important}
 .w-webflow-badge,.w-webflow-badge *{position:static;left:auto;top:auto;right:auto;bottom:auto;z-index:auto;display:block;visibility:visible;overflow:visible;overflow-x:visible;overflow-y:visible;box-sizing:border-box;width:auto;height:auto;max-height:none;max-width:none;min-height:0;min-width:0;margin:0;padding:0;float:none;clear:none;border:0 transparent;border-radius:0;background:0 0;box-shadow:none;opacity:1;transform:none;transition:none;direction:ltr;font-family:inherit;font-weight:inherit;color:inherit;font-size:inherit;line-height:inherit;font-style:inherit;font-variant:inherit;text-align:inherit;letter-spacing:inherit;text-decoration:inherit;text-indent:0;text-transform:inherit;list-style-type:disc;text-shadow:none;font-smoothing:auto;vertical-align:baseline;cursor:inherit;white-space:inherit;word-break:normal;word-spacing:normal;word-wrap:normal}
