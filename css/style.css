@@ -788,7 +788,9 @@ textarea.w-input,textarea.w-select{height:auto}
     }.resources-button-text{margin-top:3px;padding-right:10px;color:#fff;font-weight:700;letter-spacing:.1em;text-decoration:none
     }.text-block-2{padding-right:5px;font-weight:300
     }.div-block-13{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row}
-    /* .section-10{background-color:#f0f0f0} */
+    .section-10{
+    /* border: 5px solid #222831;/*Border thicknes / colour */
+    background-color: #393E46;/*Box color*/}
     .text-field{margin-bottom:0;border:1px #000
     }.consult-grid{grid-column-gap:32px;grid-row-gap:32px;-ms-grid-rows:auto;grid-template-rows:auto
     }.resources-hero-container{padding:100px 60px
