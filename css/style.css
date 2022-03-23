@@ -6,6 +6,9 @@
 body {
     /*Backgroud colour format*/
 	background-color:lightgray 
+}
+
+#container {
 	width: 80%; 
 	margin: 0 auto; 
 }	
