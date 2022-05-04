@@ -1,6 +1,4 @@
-# 👀🔥
-
-[Updating this site](https://abdularif.tech/html/)
+# [My Website 👀🔥](https://abdularif.tech/html/)
 
 <!-- [previous myweb portfolio](https://arifb.myweb.cs.uwindsor.ca/portfolio/html/)
  -->
